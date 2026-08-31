@@ -10,9 +10,19 @@
     "test:watch": "jest --watch --testEnvironment=node"
   },
   "jest": {
-    "testMatch": ["**/tests/**/*.test.js"]
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
   },
-  "keywords": ["yoga", "ai", "nodejs", "express"],
+  "keywords": [
+    "yoga",
+    "ai",
+    "nodejs",
+    "express"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
 }
