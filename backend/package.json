@@ -1,0 +1,18 @@
+{
+  "name": "ai-yoga-coach-backend",
+  "version": "1.0.0",
+  "description": "Node.js / Express backend for AI Yoga Coach",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --testEnvironment=node --forceExit --runInBand",
+    "test:watch": "jest --watch --testEnvironment=node"
+  },
+  "jest": {
+    "testMatch": ["**/tests/**/*.test.js"]
+  },
+  "keywords": ["yoga", "ai", "nodejs", "express"],
+  "author": "",
+  "license": "MIT"
+}

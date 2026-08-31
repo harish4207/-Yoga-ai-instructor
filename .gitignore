@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Environment
+.env
+*.env.local
+
+# Build output
+dist/
+build/
+.next/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# MediaPipe model cache (large files — download at runtime)
+frontend/public/models/*.task
+
+# Uploaded photos (stored in cloud, not repo)
+uploads/

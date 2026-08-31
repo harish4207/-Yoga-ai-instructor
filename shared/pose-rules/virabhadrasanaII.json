@@ -1,0 +1,96 @@
+{
+  "id": "virabhadrasanaII",
+  "version": "0.1",
+  "source": "AYUSH guidelines + biomechanics calibration v0.1 — pending practitioner review",
+  "cameraOrientation": "front",
+  "cameraHeight": "standing",
+  "minVisibilityThreshold": 0.60,
+  "requiredLandmarks": [11, 12, 13, 14, 15, 16, 23, 24, 25, 26, 27, 28],
+  "rules": [
+    {
+      "ruleId": "front_knee_angle",
+      "description": "Front knee bend (target: 80–100°)",
+      "landmarkA": 23,
+      "landmarkB": 25,
+      "landmarkC": 27,
+      "targetMin": 80,
+      "targetMax": 100,
+      "weight": 0.30,
+      "severity": "critical",
+      "positiveFeedback": "front_knee_good",
+      "correctionTemplates": {
+        "too_low": "front_knee_too_bent",
+        "too_high": "front_knee_too_straight",
+        "on_target": "front_knee_good"
+      }
+    },
+    {
+      "ruleId": "left_arm_alignment",
+      "description": "Left arm extended (target: 165–180°)",
+      "landmarkA": 11,
+      "landmarkB": 13,
+      "landmarkC": 15,
+      "targetMin": 165,
+      "targetMax": 180,
+      "weight": 0.15,
+      "severity": "important",
+      "positiveFeedback": "arms_good",
+      "correctionTemplates": {
+        "too_low": "left_arm_bent",
+        "too_high": "arms_good",
+        "on_target": "arms_good"
+      }
+    },
+    {
+      "ruleId": "right_arm_alignment",
+      "description": "Right arm extended (target: 165–180°)",
+      "landmarkA": 12,
+      "landmarkB": 14,
+      "landmarkC": 16,
+      "targetMin": 165,
+      "targetMax": 180,
+      "weight": 0.15,
+      "severity": "important",
+      "positiveFeedback": "arms_good",
+      "correctionTemplates": {
+        "too_low": "right_arm_bent",
+        "too_high": "arms_good",
+        "on_target": "arms_good"
+      }
+    },
+    {
+      "ruleId": "torso_upright",
+      "description": "Torso upright shoulder–hip–knee angle (target: 80–100°)",
+      "landmarkA": 11,
+      "landmarkB": 23,
+      "landmarkC": 25,
+      "targetMin": 80,
+      "targetMax": 100,
+      "weight": 0.20,
+      "severity": "important",
+      "positiveFeedback": "torso_good",
+      "correctionTemplates": {
+        "too_low": "torso_leaning_forward",
+        "too_high": "torso_leaning_back",
+        "on_target": "torso_good"
+      }
+    },
+    {
+      "ruleId": "rear_leg_straight",
+      "description": "Rear leg straight hip–knee–ankle angle (target: 160–180°)",
+      "landmarkA": 24,
+      "landmarkB": 26,
+      "landmarkC": 28,
+      "targetMin": 160,
+      "targetMax": 180,
+      "weight": 0.20,
+      "severity": "important",
+      "positiveFeedback": "rear_leg_good",
+      "correctionTemplates": {
+        "too_low": "rear_leg_bent",
+        "too_high": "rear_leg_good",
+        "on_target": "rear_leg_good"
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "lower_shoulders": {
+    "id": "lower_shoulders",
+    "category": "POSE_SPECIFIC",
+    "text": "మీ భుజాలను కొద్దిగా వదులుగా ఉంచండి.",
+    "file": "lower_shoulders.mp3",
+    "sizeBytes": 135520,
+    "sha256": "dc6fba3139e682503c10ad7bb5e55bdd5995f6cfe3aa780477e4d50932f357ab",
+    "updatedAt": "2026-08-31T13:08:39.366Z"
+  },
+  "relax_shoulders": {
+    "id": "relax_shoulders",
+    "category": "POSE_SPECIFIC",
+    "text": "భుజాలను కిందకు దించి ఉంచండి.",
+    "file": "relax_shoulders.mp3",
+    "sizeBytes": 109176,
+    "sha256": "96e227875604581be7a60ee8a48763b574340c97d9e3e9b1b2a6ee85edb5a543",
+    "updatedAt": "2026-08-31T13:08:41.052Z"
+  },
+  "raise_arms": {
+    "id": "raise_arms",
+    "category": "POSE_SPECIFIC",
+    "text": "చేతులను పైకి ఎత్తండి.",
+    "file": "raise_arms.mp3",
+    "sizeBytes": 90360,
+    "sha256": "84c89effc889070eb4f63d56bc04745fd1b496a8c19986d82c4ae1b4c24e05cd",
+    "updatedAt": "2026-08-31T13:08:42.657Z"
+  },
+  "extend_arms": {
+    "id": "extend_arms",
+    "category": "POSE_SPECIFIC",
+    "text": "చేతులను పూర్తిగా చాచండి.",
+    "file": "extend_arms.mp3",
+    "sizeBytes": 97888,
+    "sha256": "2fb0e94a8ad73958d03e22b33bc0b2674cb6716b857b8a4a45e56309acda7e57",
+    "updatedAt": "2026-08-31T13:08:44.355Z"
+  },
+  "extend_left_arm": {
+    "id": "extend_left_arm",
+    "category": "POSE_SPECIFIC",
+    "text": "ఎడమ చేతిని పూర్తిగా చాచండి.",
+    "file": "extend_left_arm.mp3",
+    "sizeBytes": 94124,
+    "sha256": "722b6b445e9c32a1c5cba789cde7d4a1f3c22b2e50e89c7ccd7b8a74bba26a59",
+    "updatedAt": "2026-08-31T13:08:46.116Z"
+  },
+  "extend_right_arm": {
+    "id": "extend_right_arm",
+    "category": "POSE_SPECIFIC",
+    "text": "కుడి చేతిని పూర్తిగా చాచండి.",
+    "file": "extend_right_arm.mp3",
+    "sizeBytes": 94124,
+    "sha256": "161fa01316d659aa00d111bb25b8328f52f57627f1b5a9075c9a3098a4058d16",
+    "updatedAt": "2026-08-31T13:08:49.608Z"
+  },
+  "bend_front_knee": {
+    "id": "bend_front_knee",
+    "category": "POSE_SPECIFIC",
+    "text": "ముందు మోకాలిని ఇంకొంచెం వంచండి.",
+    "file": "bend_front_knee.mp3",
+    "sizeBytes": 112940,
+    "sha256": "bab4face6b894e8a49cf650b6b67ea42f8e91872352c7acd99434c82209d214b",
+    "updatedAt": "2026-08-31T13:08:53.118Z"
+  },
+  "align_front_knee": {
+    "id": "align_front_knee",
+    "category": "POSE_SPECIFIC",
+    "text": "ముందు మోకాలిని మడమ పైనే ఉంచండి.",
+    "file": "align_front_knee.mp3",
+    "sizeBytes": 120466,
+    "sha256": "a02a5f4f06f85c919594509b2ab1f656956748becc6d44bffb620f53c9cb3f8f",
+    "updatedAt": "2026-08-31T13:08:56.836Z"
+  },
+  "straighten_knees": {
+    "id": "straighten_knees",
+    "category": "POSE_SPECIFIC",
+    "text": "మోకాళ్లను సూటిగా ఉంచండి.",
+    "file": "straighten_knees.mp3",
+    "sizeBytes": 112940,
+    "sha256": "4b6a9650f5f11fcabe6be649db22a39b7f9668972ffaad0b3e3f105689155eb4",
+    "updatedAt": "2026-08-31T13:08:59.842Z"
+  },
+  "straighten_back_leg": {
+    "id": "straighten_back_leg",
+    "category": "POSE_SPECIFIC",
+    "text": "వెనుక కాలును సూటిగా ఉంచండి.",
+    "file": "straighten_back_leg.mp3",
+    "sizeBytes": 97888,
+    "sha256": "0696dd7a2a5481e944073e956608b4f9cc9d81c57f1366d5b4e972e4ddf4f0d2",
+    "updatedAt": "2026-08-31T13:09:02.958Z"
+  },
+  "lift_bent_knee": {
+    "id": "lift_bent_knee",
+    "category": "POSE_SPECIFIC",
+    "text": "వంచిన మోకాలిని పక్కవైపుకు జరపండి.",
+    "file": "lift_bent_knee.mp3",
+    "sizeBytes": 139282,
+    "sha256": "fe1a3adadc3eafdf9cd642d3339e5663c2aa6a059115fe7fac84928887c6546c",
+    "updatedAt": "2026-08-31T13:09:05.013Z"
+  },
+  "keep_torso_upright": {
+    "id": "keep_torso_upright",
+    "category": "POSE_SPECIFIC",
+    "text": "శరీరాన్ని నిటారుగా ఉంచండి.",
+    "file": "keep_torso_upright.mp3",
+    "sizeBytes": 97888,
+    "sha256": "f55c842296178ba24587b3c4c075d3cb30d91d30dde12d6fb0ff17a63f1323a6",
+    "updatedAt": "2026-08-31T13:09:06.864Z"
+  },
+  "lengthen_spine": {
+    "id": "lengthen_spine",
+    "category": "POSE_SPECIFIC",
+    "text": "వెన్నెముకను పైకి నిటారుగా చాచండి.",
+    "file": "lengthen_spine.mp3",
+    "sizeBytes": 143046,
+    "sha256": "9507f311a72a3b961b6dea5cc39cece99b2b27108f6a7c7df81bc26f42ccf197",
+    "updatedAt": "2026-08-31T13:09:09.012Z"
+  },
+  "lift_chest": {
+    "id": "lift_chest",
+    "category": "POSE_SPECIFIC",
+    "text": "ఛాతీని ముందుకు, పైకి తెరవండి.",
+    "file": "lift_chest.mp3",
+    "sizeBytes": 124230,
+    "sha256": "6360683904c1cc672bd07b43bfc6fd9a840d1d4eb2f56b85571bb7332914a258",
+    "updatedAt": "2026-08-31T13:09:10.881Z"
+  },
+  "soften_elbows": {
+    "id": "soften_elbows",
+    "category": "POSE_SPECIFIC",
+    "text": "మోచేతులను బిగించకుండా కొద్దిగా వంచండి.",
+    "file": "soften_elbows.mp3",
+    "sizeBytes": 124230,
+    "sha256": "786ad62ce098e5ada1338a6211627560e73e2010ced797f1d9ba97f4e06e8d3f",
+    "updatedAt": "2026-08-31T13:09:12.691Z"
+  },
+  "lift_hips_higher": {
+    "id": "lift_hips_higher",
+    "category": "POSE_SPECIFIC",
+    "text": "నడుమును మరింత పైకి ఎత్తండి.",
+    "file": "lift_hips_higher.mp3",
+    "sizeBytes": 112940,
+    "sha256": "da1265c7583aeebc5d76f2362a8e1632957ee2e58f754e5a92f9496fac912bb3",
+    "updatedAt": "2026-08-31T13:09:15.745Z"
+  },
+  "press_hips_back": {
+    "id": "press_hips_back",
+    "category": "POSE_SPECIFIC",
+    "text": "నడుమును వెనక్కి, పైకి నెట్టండి.",
+    "file": "press_hips_back.mp3",
+    "sizeBytes": 112940,
+    "sha256": "b6c56c993deebef44fff20c5eb5fbc4350e8b72c633a703db13c4d26f1aef073",
+    "updatedAt": "2026-08-31T13:09:18.150Z"
+  },
+  "align_hips_shoulders": {
+    "id": "align_hips_shoulders",
+    "category": "POSE_SPECIFIC",
+    "text": "నడుము మరియు భుజాలను ఒకే వరుసలో ఉంచండి.",
+    "file": "align_hips_shoulders.mp3",
+    "sizeBytes": 165624,
+    "sha256": "fa2ab711352782bf0eee0d143ad499e7a17fd21a978e24f8c1012bcebbb8b815",
+    "updatedAt": "2026-08-31T13:09:21.319Z"
+  },
+  "ground_feet": {
+    "id": "ground_feet",
+    "category": "POSE_SPECIFIC",
+    "text": "పాదాలను నేలపై బలంగా ఆనించండి.",
+    "file": "ground_feet.mp3",
+    "sizeBytes": 112940,
+    "sha256": "08bb0b2397997ff3ee70001a26160349be15c1b8b9429c80c4748efe0e590895",
+    "updatedAt": "2026-08-31T13:09:24.404Z"
+  },
+  "move_back": {
+    "id": "move_back",
+    "category": "GLOBAL_CAMERA_GATE",
+    "text": "పూర్తి శరీరం కనిపించేలా కొంచెం వెనక్కి వెళ్ళండి.",
+    "file": "move_back.mp3",
+    "sizeBytes": 161862,
+    "sha256": "964d691a70358734dc066343572ee7b6abd6ba0815c73c31b39c10f419cdcb90",
+    "updatedAt": "2026-08-31T13:09:28.089Z"
+  },
+  "move_forward": {
+    "id": "move_forward",
+    "category": "GLOBAL_CAMERA_GATE",
+    "text": "కెమెరాకు కొంచెం ముందుకు రండి.",
+    "file": "move_forward.mp3",
+    "sizeBytes": 124230,
+    "sha256": "ad826ed02c715c99d03a29e43850130e41f73c6c64d5440858c95015ffa80d88",
+    "updatedAt": "2026-08-31T13:09:31.369Z"
+  },
+  "move_left": {
+    "id": "move_left",
+    "category": "GLOBAL_CAMERA_GATE",
+    "text": "కొంచెం ఎడమవైపుకు జరగండి.",
+    "file": "move_left.mp3",
+    "sizeBytes": 97888,
+    "sha256": "2c51a8da0c465d89dd98befcce26de341102190c33b21a67b6e125ef98cda981",
+    "updatedAt": "2026-08-31T13:09:34.186Z"
+  },
+  "move_right": {
+    "id": "move_right",
+    "category": "GLOBAL_CAMERA_GATE",
+    "text": "కొంచెం కుడివైపుకు జరగండి.",
+    "file": "move_right.mp3",
+    "sizeBytes": 79072,
+    "sha256": "8efc5e674de52591921500f14f9a671e041d67bcb06efc0f852c789bd845776e",
+    "updatedAt": "2026-08-31T13:09:37.227Z"
+  },
+  "hold_position": {
+    "id": "hold_position",
+    "category": "REINFORCEMENT",
+    "text": "ఇలాగే స్థిరంగా ఉండండి.",
+    "file": "hold_position.mp3",
+    "sizeBytes": 82834,
+    "sha256": "3cab01cbaf20edb2cb796512a62ac429b7fcc036385f90bacef605b185018b2e",
+    "updatedAt": "2026-08-31T13:09:39.656Z"
+  },
+  "good_job": {
+    "id": "good_job",
+    "category": "REINFORCEMENT",
+    "text": "చాలా బాగుంది! అలాగే ఉండండి.",
+    "file": "good_job.mp3",
+    "sizeBytes": 127992,
+    "sha256": "45b6b833d52b9d93d1cc4bac11f80306f2a8473ee2ed0b043dfea16e0650c2f9",
+    "updatedAt": "2026-08-31T13:09:42.744Z"
+  },
+  "excellent": {
+    "id": "excellent",
+    "category": "REINFORCEMENT",
+    "text": "అద్భుతం! భంగిమ చాలా బాగుంది.",
+    "file": "excellent.mp3",
+    "sizeBytes": 109176,
+    "sha256": "4870cc58618c122324c76ae1543bbecc85f1634e5a7762d46a8828fde3e80399",
+    "updatedAt": "2026-08-31T13:09:45.439Z"
+  },
+  "try_again": {
+    "id": "try_again",
+    "category": "REINFORCEMENT",
+    "text": "శ్వాస తీసుకుని మళ్లీ ప్రయత్నించండి.",
+    "file": "try_again.mp3",
+    "sizeBytes": 143046,
+    "sha256": "b604de33bf18ddb3c7266e96b2eb0618bc93f7bfe14160ffb162954c55043106",
+    "updatedAt": "2026-08-31T13:09:48.351Z"
+  },
+  "keep_breathing": {
+    "id": "keep_breathing",
+    "category": "REINFORCEMENT",
+    "text": "నెమ్మదిగా, ప్రశాంతంగా శ్వాస తీసుకోండి.",
+    "file": "keep_breathing.mp3",
+    "sizeBytes": 161862,
+    "sha256": "f9af8b405eca7a1b6fc982cb9d3c9b7225ec1b194e9ff9085cd4954dda9f4ea3",
+    "updatedAt": "2026-08-31T13:09:51.322Z"
+  }
+}

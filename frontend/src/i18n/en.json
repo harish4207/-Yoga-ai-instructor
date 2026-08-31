@@ -1,0 +1,17 @@
+{
+  "front_knee_good": "Your front knee is well aligned. Keep it there.",
+  "front_knee_too_straight": "Bend your front knee a little more. Aim for about a 90-degree angle.",
+  "front_knee_too_bent": "Your front knee is bent too deeply. Straighten it slightly.",
+  "arms_good": "Your arms are well extended. Keep reaching through your fingertips.",
+  "left_arm_bent": "Extend your left arm fully. Keep it parallel to the floor.",
+  "right_arm_bent": "Extend your right arm fully. Keep it parallel to the floor.",
+  "torso_good": "Your torso is upright. Excellent.",
+  "torso_leaning_forward": "Your torso is leaning forward. Bring it upright.",
+  "torso_leaning_back": "Your torso is leaning back slightly. Bring it straight up.",
+  "rear_leg_good": "Your rear leg is nicely straight. Well done.",
+  "rear_leg_bent": "Straighten your rear leg. Press through your rear heel.",
+  "reposition_camera": "Please step back so your full body is visible in the camera.",
+  "no_person": "No person detected. Please step in front of the camera.",
+  "session_start": "Hold the pose steadily. I will analyse your alignment.",
+  "great_improvement": "You are improving well."
+}
