@@ -1,110 +1,69 @@
-/**
- * Usha AI Yoga Coach — World-Class Master Design System
- * Inspired by the Dawn Palette: Midnight Indigo, Radiant Gold, Forest Leaf, and Earthen Clay.
- */
-
 :root {
+  --cream: #F1F4EE;
+  --paper: #FFFFFF;
   --night: #12172B;
-  --night-2: #1B2140;
-  --night-card: #181E38;
-  --paper: #F1F4EE;
-  --paper-card: #FFFFFF;
-  --ink: #1B1F2A;
-  --ink-light: #5B6058;
   --gold: #E8A33D;
   --gold-2: #F4C878;
-  --leaf: #2F6D4F;
-  --leaf-light: #E8F5E9;
   --clay: #C65D4B;
-  --clay-light: #FDE8E4;
-  --muted: #6B7280;
-  --border-dark: rgba(255, 255, 255, 0.12);
-  --border-light: #E5E7EB;
+  --forest: #2F6D4F;
+  --moss: #6D8E73;
+  --sand: #DDD9CE;
+  --ink: #1B1F2A;
+  --muted: #4B5563;
 
-  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  --font-body: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
-  --font-indic: 'IBM Plex Sans Devanagari', 'Noto Sans Telugu', 'IBM Plex Sans', sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-indic: 'Gautami', 'Noto Sans Telugu', 'Tiro Telugu', 'Plus Jakarta Sans', sans-serif;
 }
 
 body {
+  background-color: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-body);
   margin: 0;
   padding: 0;
-  background: var(--night);
-  color: #EDEEF6;
-  font-family: var(--font-body);
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
+  box-sizing: border-box;
 }
 
-#app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 700;
-  color: #FFFFFF;
+  letter-spacing: 0.5px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: 16px; /* Prevents auto-zoom on mobile Safari */
 }
 
 /* Animations */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(232, 163, 61, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(232, 163, 61, 0.8);
+  }
+}
+
 @keyframes breathe {
   0%, 100% {
-    transform: scale(0.85);
+    transform: scale(0.92);
     opacity: 0.7;
   }
   50% {
-    transform: scale(1.25);
+    transform: scale(1.18);
     opacity: 1;
   }
-}
-
-@keyframes pulse-gold {
-  0%, 100% {
-    box-shadow: 0 0 0 0 rgba(232, 163, 61, 0.4);
-  }
-  50% {
-    box-shadow: 0 0 0 14px rgba(232, 163, 61, 0);
-  }
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.3s ease-out forwards;
 }
 
 /* Breathing Dock Widget */
@@ -152,6 +111,25 @@ a {
   background: rgba(232, 163, 61, 0.5);
 }
 
+/* Responsive Grid Utilities */
+.photo-report-hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 28px;
+}
+
+.photo-breakdown-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.asana-prep-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
 /* Mobile & Tablet Responsive Rules */
 @media (max-width: 768px) {
   .desktop-nav,
@@ -161,5 +139,20 @@ a {
 
   .mobile-hamburger-btn {
     display: block !important;
+  }
+
+  .photo-report-hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .photo-breakdown-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+
+  .asana-prep-two-col {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
   }
 }

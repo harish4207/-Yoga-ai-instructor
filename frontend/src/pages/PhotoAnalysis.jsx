@@ -408,6 +408,22 @@ export default function PhotoAnalysis() {
             >
               Continue to Photo Input →
             </button>
+
+            <button
+              onClick={() => navigate('/asanas')}
+              style={{
+                display: 'block',
+                margin: '16px auto 0',
+                background: 'none',
+                border: 'none',
+                color: '#9AA0C4',
+                fontSize: 13.5,
+                fontWeight: 600,
+                cursor: 'pointer',
+              }}
+            >
+              ← Back to Asana Library
+            </button>
           </div>
         )}
 
@@ -416,6 +432,23 @@ export default function PhotoAnalysis() {
         {/* ========================================================================= */}
         {phase === 'input' && (
           <div style={{ maxWidth: 740, margin: '0 auto' }}>
+            <button
+              onClick={() => setPhase('lang_select')}
+              style={{
+                background: 'none',
+                border: 'none',
+                color: 'var(--gold-2)',
+                fontSize: 13,
+                fontWeight: 700,
+                cursor: 'pointer',
+                marginBottom: 14,
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 4,
+              }}
+            >
+              ← Back to Language Selection
+            </button>
             {/* Input Mode Selector Tabs */}
             <div style={{ display: 'flex', background: 'rgba(255, 255, 255, 0.06)', padding: 4, borderRadius: 12, marginBottom: 24, border: '1px solid rgba(255, 255, 255, 0.1)' }}>
               <button
@@ -619,8 +652,8 @@ export default function PhotoAnalysis() {
               </div>
             ) : (
               <div>
-                {/* 2-Column Hero Card */}
-                <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: 32, background: '#FFFFFF', border: '1px solid #E5E7EB', borderRadius: 22, padding: 28, marginBottom: 28, boxShadow: '0 4px 20px rgba(0,0,0,0.04)' }}>
+                {/* 2-Column Hero Card (Responsive Grid) */}
+                <div className="photo-report-hero-grid" style={{ background: '#FFFFFF', border: '1px solid #E5E7EB', borderRadius: 22, padding: 'clamp(16px, 3vw, 28px)', marginBottom: 28, boxShadow: '0 4px 20px rgba(0,0,0,0.04)' }}>
                   {/* Left: Annotated Visualizer */}
                   <div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
@@ -783,7 +816,7 @@ export default function PhotoAnalysis() {
                   <h3 style={{ fontSize: 18, margin: '0 0 16px', color: 'var(--ink)' }}>
                     Biomechanical Joint Breakdown
                   </h3>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+                  <div className="photo-breakdown-grid" style={{ gap: 14 }}>
                     {(report.rule_results || []).map((r, idx) => {
                       const isPass = r.direction === 'on_target' || (r.deviation_deg !== undefined && r.deviation_deg <= 3.0);
                       return (

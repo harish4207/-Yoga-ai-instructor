@@ -308,8 +308,8 @@ export default function AsanaLibrary() {
                   </ol>
                 </div>
 
-                {/* 2-Column Preparation Grid */}
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, marginBottom: 16 }}>
+                {/* 2-Column Preparation Grid (Responsive) */}
+                <div className="asana-prep-two-col" style={{ marginBottom: 16 }}>
                   {/* Focus Points */}
                   <div style={{ background: 'rgba(47, 109, 79, 0.12)', borderRadius: 10, padding: 12, border: '1px solid rgba(47, 109, 79, 0.3)' }}>
                     <h4 style={{ margin: '0 0 6px', fontSize: 12, color: '#86EFAC', textTransform: 'uppercase' }}>

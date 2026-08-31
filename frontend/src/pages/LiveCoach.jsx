@@ -549,6 +549,22 @@ export default function LiveCoach() {
           >
             Continue to Camera Setup →
           </button>
+
+          <button
+            onClick={() => navigate('/asanas')}
+            style={{
+              display: 'block',
+              margin: '16px auto 0',
+              background: 'none',
+              border: 'none',
+              color: '#9AA0C4',
+              fontSize: 13.5,
+              fontWeight: 600,
+              cursor: 'pointer',
+            }}
+          >
+            ← Back to Asana Library
+          </button>
         </div>
       )}
 
@@ -570,9 +586,26 @@ export default function LiveCoach() {
           {/* Top Bar */}
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16, flexWrap: 'wrap', gap: 10 }}>
             <div>
-              <h1 style={{ fontSize: 'clamp(20px, 4vw, 26px)', margin: '0 0 4px' }}>
-                Setup & Alignment — {asanaConfig.name}
-              </h1>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
+                <button
+                  onClick={() => { stopCamera(); navigate('/asanas'); }}
+                  style={{
+                    background: 'rgba(255, 255, 255, 0.08)',
+                    border: '1px solid rgba(255, 255, 255, 0.15)',
+                    color: '#EDEEF6',
+                    padding: '4px 10px',
+                    borderRadius: 8,
+                    fontSize: 12.5,
+                    cursor: 'pointer',
+                    fontWeight: 600,
+                  }}
+                >
+                  ← Library
+                </button>
+                <h1 style={{ fontSize: 'clamp(18px, 4vw, 24px)', margin: 0 }}>
+                  {asanaConfig.name}
+                </h1>
+              </div>
               <div style={{ color: '#9AA0C4', fontSize: 13 }}>
                 {asanaConfig.sanskritName} · Coaching in <strong>{language === 'te' ? 'Telugu (తెలుగు)' : 'English'}</strong>
               </div>
